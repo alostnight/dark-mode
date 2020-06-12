@@ -13,7 +13,7 @@ const useDarkMode = (key, initialValue) => {
 
   useEffect(() => {
 
-    if (darkModeOn == true) {
+    if (darkModeOn === true) {
       document.body.classList.add("dark-mode");
     } else {
       document.body.classList.remove("dark-mode");
